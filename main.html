@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diacel</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <h1>Diacel</h1>
+        </div>
+    </header>
+<div class="container about">
+  <h2>Обо мне</h2>
+  <p>Привет, меня зовут Денис, и я являюсь страстным автолюбителем.</p>
+  <button class="btn" id="aboutBtn">Подробнее</button>
+</div>
+<div class="container garage">
+  <h2>Мой гараж</h2>
+  <p>У меня есть увлекательная коллекция автомобилей, которую я с гордостью храню и обслуживаю в своем гараже.</p>
+  <button class="btn" id="garageBtn">Посмотреть коллекцию</button>
+</div>
+<div id="aboutModal" class="modal">
+  <div class="modal-content">
+    <h2>Обо мне</h2>
+    <p>Здесь более детальная информация о вас, вашей истории, интересах, квалификации и достижениях.</p>
+    <button class="btn" onclick="closeModal('aboutModal')">Закрыть</button>
+  </div>
+</div>
+<div id="garageModal" class="modal">
+  <div class="modal-content">
+    <h2>Мой гараж</h2>
+    <div class="pojero">
+      <h3>Mitsubishi Pajero Sport-2</h3>
+      <img src="img\pojero1.jpg" alt="item 1">
+      <img src="img\pojero2.jpg" alt="item 2">        
+        <p>Mitsubishi Pajero Sport — среднеразмерный внедорожник японской компании Mitsubishi, дебютировал в 1996 году и занял промежуточное место в модельном ряду между Pajero и Pajero Io(Pinin). Построен на базе пикапа L200. В 2000 году модель прошла рестайлинг (появился двигатель V6 объёмом 3,0 л). В Японии продаётся под названием Challenger, на американском рынке известен как Montero Sport. Pajero Sport второго поколения был представлен в 2008 году на Московском международном автосалоне.</p>
+    </div>
+    <div class="vaz">
+      <h3>Ваз 2114</h3>
+      <img src="img\vaz1.jpg" alt="item 3">
+      <img src="img\vaz2.jpg" alt="item 4">
+        <p>ВАЗ-2114 (LADA Samara) — пятидверный хетчбэк Волжского автомобильного завода, рестайлинговая версия ВАЗ-2109, продолжение семейства под условным названием «Самара-2». Модель отличалась от предшественников оригинальным оформлением передней части кузова с новыми фарами, капотом, облицовкой радиатора, бамперами и наличием молдингов.</p>
+    </div>
+      <button class="btn" onclick="closeModal('garageModal')">Закрыть</button>
+  </div>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
