@@ -96,15 +96,15 @@ body, html {
       transform: translateY(0);
     }
   }
-  .about, .garage {
+  .about, .garage, .project {
     padding: 50px 0;
     text-align: center;
   }
-  .about h2, .garage h2 {
+  .about h2, .garage h2, .project h2 {
     font-size: 2.5em;
     animation: fadeInUp 1.5s ease-out;
   }
-  .about p, .garage p {
+  .about p, .garage p, .project p {
     font-size: 1.2em;
     line-height: 1.4;
     animation: fadeIn 2s ease-out;
@@ -249,7 +249,7 @@ body, html {
   }
   .social ul li:hover i {
     color: #fff;
-    background: rgb(26, 194, 26);
+    background: #5a7;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -279,4 +279,3 @@ body, html {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  

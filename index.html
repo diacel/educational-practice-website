@@ -4,28 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Diacel</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="images/x-icon" href="https://i.pinimg.com/564x/65/7b/45/657b457d5f7a52764feb216d96edee12.jpg"/>
+<link rel="stylesheet" href="mainStyles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-          <h1>Diacel</h1>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <h1><a href="/poshalko/poshalko.html" target="_blank">Diacel</a></h1>
+    </div>
+  </header>
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>  
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-  <nav class="social">
-              <ul>
-                  <li><a href="https://github.com/diacel" target="_blank">GitHub <i class="fa fa-github"></i></a></li>
-                  <li><a href="https://vk.com/qqwedffr" target="_blank">Vk <i class="fa fa-vk"></i></a></li>
-                  <li><a href="https://etherscan.io/address/0xA0D6F3B57A939920209326844678330F43E08b97" target="_blank">Crypto <i class="fa fa-bitcoin"></i></a></li>
-                  <li><a href="https://steamcommunity.com/profiles/76561198879140157/" target="_blank">Steam <i class="fa fa-steam"></i></a></li>
-              </ul>
-  </nav>
+<nav class="social">
+  <ul>
+    <li><a href="https://github.com/diacel" target="_blank">GitHub <i class="fa fa-github"></i></a></li>
+    <li><a href="https://t.me/diacel" target="_blank">Telegram <i class="fa fa-paper-plane-o"></i></a></li>
+    <li><a href="/payment/payment.html" target="_blank">Crypto <i class="fa fa-bitcoin"></i></a></li>
+    <li><a href="https://steamcommunity.com/profiles/76561198879140157/" target="_blank">Steam <i class="fa fa-steam"></i></a></li>
+  </ul>
+</nav>
 <div class="container about">
   <h2>Обо мне</h2>
   <p>Привет, меня зовут Денис.</p>
   <button class="btn" id="aboutBtn">Подробнее</button>
+</div>
+<div class="container project">
+  <h2>Мои проекты</h2>
+  <p>:(</p>
+  <button class="btn" id="projectBtn">Подробнее</button>
+</div>
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <button class="btn" onclick="closeModal('projectModal')">Закрыть</button>
+  </div>
 </div>
 <div class="container garage">
   <h2>Мой гараж</h2>
@@ -60,6 +71,6 @@
       <button class="btn" onclick="closeModal('garageModal')">Закрыть</button>
   </div>
 </div>
-<script src="/script.js"></script>
+<script src="/main.js"></script>
 </body>
 </html>
