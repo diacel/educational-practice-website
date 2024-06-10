@@ -29,7 +29,7 @@
 
 1. Клонировать репозиторий:
 ```bash
-   git clone https://github.com/diacel/educational-practice-website.git
+git clone https://github.com/diacel/educational-practice-website.git
 ```
 2. Открыть index.html в браузере.
 
