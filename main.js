@@ -10,6 +10,3 @@ function openModal(modalId) {
   document.getElementById('garageBtn').addEventListener('click', function() {
     openModal('garageModal');
   });
-  document.getElementById('projectBtn').addEventListener('click', function() {
-    openModal('projectModal');
-  });
